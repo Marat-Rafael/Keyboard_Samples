@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Keyboard Samples</string>
+    <string name="app_name1">Keyboard Telefono</string>
+
+    <string name="EditViewNumerico">EditView con telefono</string>
+    <string name="editview_con_spinner">EditView con Spinner</string>
+    <string name="editview_con_correo">EditView con Correo</string>
+    <string name="pruebas_del_editview">Actividad: Using Keyboards, Input Controls, Alerts, and Pickers, Droid Cafe</string>
+    <string name="elige_data_y_fecha">Elige fecha y hora</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="hora"> "|  Hora:  |"</string>
+    <string name="fecha"> "|  Fecha:  |"</string>
+    <string name="droid_cafe">Droid Cafe</string>
+    <string name="data_timer_picker">Data Timer Picker</string>
+    <string name="Donuts_describe">Es un toro o rosco de pan dulce que tradicionalmente está frito en grasa de cerdo</string>
+    <string name="Ice_describe">El sándwich de helado o bocadito de helado consiste en una capa de helado (generalmente de nata) entre dos galletas</string>
+    <string name="FroYo_describe">Es un producto lácteo helado elaborado principalmente de yogur u otros productos lácteos</string>
+    <string name="natilla_describe">Se trata de una crema elaborada con leche, yemas de huevo, azúcar y aromas como la vainilla o el limón.</string>
+
+    <string name="donuts_order_mensaje">Has eligido un donuts</string>
+    <string name="ice_order_mensaje">Has eligido un helado sandwitch</string>
+    <string name="froyo_order_mensaje">Has eligido un FroYo</string>
+    <string name="natilla_order_mensaje">Has eligido una natilla</string>
+    <string name="elije_metodo_de_envio">Elije metodo de envio</string>
+    <string name="este_mismo_dia">Este mismo dia</string>
+    <string name="dia_seguente">Dia seguente</string>
+    <string name="pick_up">recoger</string>
+
+    <string name="elegido">"eligido: "</string>
+    <string name="No_has_elegido_nada">No has eligido nada</string>
+
+
+</resources>

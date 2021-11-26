@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#aaaaaa"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:paddingTop="25dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pruebas_del_editview"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnNextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/EditViewNumerico"
+        android:onClick="mostrarEditViewNumerico"/>
+
+    <Button
+        android:id="@+id/btnActivityCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarEditViewCorreo"
+        android:text="@string/editview_con_correo" />
+
+    <Button
+        android:id="@+id/btnActivityspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarEditViewSpinner"
+        android:text="@string/editview_con_spinner" />
+    <Button
+        android:id="@+id/btnDataTimerPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarDataTimerPicker"
+        android:text="@string/data_timer_picker" />
+
+    <Button
+        android:id="@+id/btnAlertaPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarAlert"
+        android:text="Probando Alerta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnDroidCafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarDroidCafe"
+        android:text="@string/droid_cafe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</LinearLayout>
